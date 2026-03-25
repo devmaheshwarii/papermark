@@ -1,10 +1,5 @@
 
 {
-  {
-  "source": "/services/:path*",
-  "has": [{ "type": "host" }],
-  "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }]
-}
   "functions": {
     "pages/api/mupdf/convert-page.ts": {
       "memory": 2048
